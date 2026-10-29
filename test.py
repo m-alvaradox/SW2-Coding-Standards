@@ -1,3 +1,4 @@
+# Code quality validation using GitHub Actions.
 """Student grade management system."""
 
 class Student:
