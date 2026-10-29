@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pylint Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #253858;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #253858;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pylint Analysis Report</h1>
+
+    <p><strong>Source:</strong>
+        reports/pylint_initial.json
+    </p>
+
+    <p><strong>Total issues detected:</strong> 18</p>
+
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Rule</th>
+            <th>Message</th>
+            <th>Line</th>
+        </tr>
+        <tr><td>convention</td><td>missing-module-docstring</td><td>Missing module docstring</td><td>1</td></tr>
+<tr><td>convention</td><td>missing-class-docstring</td><td>Missing class docstring</td><td>1</td></tr>
+<tr><td>convention</td><td>invalid-name</td><td>Class name &quot;student&quot; doesn&#x27;t conform to PascalCase naming style</td><td>1</td></tr>
+<tr><td>convention</td><td>invalid-name</td><td>Attribute name &quot;isPassed&quot; doesn&#x27;t conform to snake_case naming style</td><td>6</td></tr>
+<tr><td>error</td><td>no-self-argument</td><td>Method &#x27;__init__&#x27; should have &quot;self&quot; as first argument</td><td>2</td></tr>
+<tr><td>warning</td><td>redefined-builtin</td><td>Redefining built-in &#x27;id&#x27;</td><td>2</td></tr>
+<tr><td>convention</td><td>missing-function-docstring</td><td>Missing function or method docstring</td><td>9</td></tr>
+<tr><td>convention</td><td>invalid-name</td><td>Method name &quot;addGrades&quot; doesn&#x27;t conform to snake_case naming style</td><td>9</td></tr>
+<tr><td>convention</td><td>missing-function-docstring</td><td>Missing function or method docstring</td><td>12</td></tr>
+<tr><td>warning</td><td>unused-variable</td><td>Unused variable &#x27;avg&#x27;</td><td>16</td></tr>
+<tr><td>convention</td><td>missing-function-docstring</td><td>Missing function or method docstring</td><td>18</td></tr>
+<tr><td>convention</td><td>invalid-name</td><td>Method name &quot;checkHonor&quot; doesn&#x27;t conform to snake_case naming style</td><td>18</td></tr>
+<tr><td>error</td><td>no-member</td><td>Instance of &#x27;student&#x27; has no &#x27;calcAverage&#x27; member; maybe &#x27;calcaverage&#x27;?</td><td>19</td></tr>
+<tr><td>convention</td><td>missing-function-docstring</td><td>Missing function or method docstring</td><td>22</td></tr>
+<tr><td>convention</td><td>invalid-name</td><td>Method name &quot;deleteGrade&quot; doesn&#x27;t conform to snake_case naming style</td><td>22</td></tr>
+<tr><td>convention</td><td>missing-function-docstring</td><td>Missing function or method docstring</td><td>25</td></tr>
+<tr><td>error</td><td>no-member</td><td>Instance of &#x27;student&#x27; has no &#x27;letter&#x27; member</td><td>29</td></tr>
+<tr><td>convention</td><td>missing-function-docstring</td><td>Missing function or method docstring</td><td>32</td></tr>
+    </table>
+</body>
+</html>
